@@ -6,8 +6,19 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "new_count",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "store",
+				"name": "count",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -15,7 +26,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -32,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"localVariable.sol": "local"
+			"constructor.sol": "local"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -46,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"localVariable.sol": {
-			"keccak256": "0x87c69dec6fbb36752051b1cf74cb8e9ce19851a1ffb44b563b0b3e30abe73980",
+		"constructor.sol": {
+			"keccak256": "0xe4269f334804ad7db530be5e72e01252562523ebc53d8dd22eb5145d83a0e9ed",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://c5da3dadd24cfb432809bdf0e9aff8d775d71d2b2b9fba3a0dd921cf03538570",
-				"dweb:/ipfs/QmcgBZD6ApBVdb9gNazz3MkvZVN5BDVg7jZ6GeK5RtXC1u"
+				"bzz-raw://a809d38ac6176a63ca53078095be23cfeaaa06c19a7a959f36d7502e79e873b5",
+				"dweb:/ipfs/QmZ63X9KxCURyAs37vkqesmQxoxh4mEUo6epSnZV7Yqjuw"
 			]
 		}
 	},
