@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "money",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setNum",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"overflow.sol": "Overflow"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"overflow.sol": {
+			"keccak256": "0xe9c4933dac82c11a884a0e4a56723d73125f7066fd2e4fe841b1a55c1fd2229c",
+			"urls": [
+				"bzz-raw://4ac24722190fd46c30bf8cb3d31de9fcfbc2d54fb39ac557ae11d7c48a16d23d",
+				"dweb:/ipfs/Qmaoiq7mqi7D6iZuCzu69MdGEGQfSrhmySn8ay8Y6QxXAh"
+			]
+		}
+	},
+	"version": 1
+}

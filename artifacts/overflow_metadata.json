@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"overflow.sol": "overflow"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"overflow.sol": {
+			"keccak256": "0xab2ac4593143818e49a5b5c845140b383896167e076ac4222d71fe78387b5b5a",
+			"urls": [
+				"bzz-raw://161b494cbf3259e3a1849749576a127f4ee58c079d7b2431d09d3d72a5af065a",
+				"dweb:/ipfs/QmenifGqz8GGfLABS69vPs4R8mqZuzdnuefvxkPVnR2tZ5"
+			]
+		}
+	},
+	"version": 1
+}
