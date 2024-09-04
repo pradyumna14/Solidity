@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getBookId",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "setBook",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"struct.sol": "test"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"struct.sol": {
+			"keccak256": "0xb1430f397e36d7c67878697f18ca8ace7a61c0393218979edb5a799c979698f5",
+			"urls": [
+				"bzz-raw://ef1d56e5707a63c09d1173cf19968ec60c005cbdf0e1ef12a6675966d9370adf",
+				"dweb:/ipfs/QmTTMAX4HT5J5BED4V5ryPNrNjJGdngY63P3Ms7MDqZ3q2"
+			]
+		}
+	},
+	"version": 1
+}
