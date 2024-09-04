@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					}
+				],
+				"name": "sumUpTo1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"loops.sol": "WhileLoopExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"loops.sol": {
+			"keccak256": "0x98e4d75fdbb37147873d4d7e79d440cb4c3f6bb708433303e4d44e50f9f7bd4a",
+			"urls": [
+				"bzz-raw://5b6b118e805c4df1e528299bcb491be639905ccba25f2f9e33c68472b7744634",
+				"dweb:/ipfs/QmT8V8AV2Tssneok7HtJ14Znq7KQeSqGfCWEwjuuq2TEF4"
+			]
+		}
+	},
+	"version": 1
+}

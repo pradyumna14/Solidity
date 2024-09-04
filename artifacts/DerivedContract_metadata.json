@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "accessInternalVar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getInternalVar",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"variableScope.sol": "DerivedContract"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"variableScope.sol": {
+			"keccak256": "0x6533f01e74fd893ddf48f02d47f2016a2983366ca24a760c60cb25ce15c179f4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://24b7354460cdba67c487d96babe916a75b71c330084cc03fcf5d9cc265afd8f3",
+				"dweb:/ipfs/QmVAMaptq19PU5tWFwApTLPTonuK9J1NZ3FWhkjcQix5VK"
+			]
+		}
+	},
+	"version": 1
+}
