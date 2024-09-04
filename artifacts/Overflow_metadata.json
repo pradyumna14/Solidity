@@ -8,12 +8,12 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "money",
+				"name": "num",
 				"outputs": [
 					{
-						"internalType": "uint8",
+						"internalType": "uint256",
 						"name": "",
-						"type": "uint8"
+						"type": "uint256"
 					}
 				],
 				"payable": false,
@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"overflow.sol": "Overflow"
+			"array.sol": "Overflow"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -50,11 +50,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"overflow.sol": {
-			"keccak256": "0xe9c4933dac82c11a884a0e4a56723d73125f7066fd2e4fe841b1a55c1fd2229c",
+		"array.sol": {
+			"keccak256": "0x3ea92c550616b41e98b09327ba7036fd108d49da05c87611cca22e09fa4b740a",
 			"urls": [
-				"bzz-raw://4ac24722190fd46c30bf8cb3d31de9fcfbc2d54fb39ac557ae11d7c48a16d23d",
-				"dweb:/ipfs/Qmaoiq7mqi7D6iZuCzu69MdGEGQfSrhmySn8ay8Y6QxXAh"
+				"bzz-raw://fad5c76fe08b41df807b5d601a10fcb0ba65ebc769aec785e716848806d1039d",
+				"dweb:/ipfs/QmVJgaSDgSJ3L1PPC2tPAKkf3CbUEwaSyAbhQLSyj55Hub"
 			]
 		}
 	},
