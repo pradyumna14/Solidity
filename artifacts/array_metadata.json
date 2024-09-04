@@ -8,12 +8,33 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "b2",
+				"name": "b1",
 				"outputs": [
 					{
-						"internalType": "bytes2",
+						"internalType": "bytes",
 						"name": "",
-						"type": "bytes2"
+						"type": "bytes"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "i",
+						"type": "uint256"
+					}
+				],
+				"name": "getELement",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
 					}
 				],
 				"payable": false,
@@ -23,27 +44,12 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "b3",
+				"name": "getLength",
 				"outputs": [
 					{
-						"internalType": "bytes3",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes3"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "b4",
-				"outputs": [
-					{
-						"internalType": "bytes4",
-						"name": "",
-						"type": "bytes4"
+						"type": "uint256"
 					}
 				],
 				"payable": false,
@@ -53,7 +59,7 @@
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "setter",
+				"name": "pushELement",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -69,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bytearray.sol": "Array"
+			"dynamicArray.sol": "array"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -80,11 +86,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"bytearray.sol": {
-			"keccak256": "0xfe4e4378a5b6bd0f8e1a8eb78b9c201be61b72d5e387d183dbfb471c76ea2fe8",
+		"dynamicArray.sol": {
+			"keccak256": "0xd3a4b09bcae4c06027afe193f22a55af0b64f238401e4259a4897edb0f6a10b6",
 			"urls": [
-				"bzz-raw://39fbd684e0f730681920a6cf2a6023b006e18b9314df0ba2736d1c22d0be8a7f",
-				"dweb:/ipfs/QmPve4pVBrMaBLc1waWnDSAxeY8bD5toyc9Kj71YLRgyhn"
+				"bzz-raw://abda00e16e924672b92e4009f80421d1e4fe845d40578bd6fe845f07bc9d7053",
+				"dweb:/ipfs/QmdeiJkAox9PAhYx7qiVjgzTynfEUX7ufofb48LG5pQrpe"
 			]
 		}
 	},

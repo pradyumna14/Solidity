@@ -39,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"array.sol": "Overflow"
+			"bytearray.sol": "Overflow"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -50,7 +50,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"array.sol": {
+		"bytearray.sol": {
 			"keccak256": "0x3ea92c550616b41e98b09327ba7036fd108d49da05c87611cca22e09fa4b740a",
 			"urls": [
 				"bzz-raw://fad5c76fe08b41df807b5d601a10fcb0ba65ebc769aec785e716848806d1039d",
