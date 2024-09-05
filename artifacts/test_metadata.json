@@ -8,7 +8,22 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "getBookId",
+				"name": "getChoice",
+				"outputs": [
+					{
+						"internalType": "enum test.FreshJuiceSize",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "getDefaultChoice",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -17,13 +32,13 @@
 					}
 				],
 				"payable": false,
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"constant": false,
 				"inputs": [],
-				"name": "setBook",
+				"name": "setLarge",
 				"outputs": [],
 				"payable": false,
 				"stateMutability": "nonpayable",
@@ -39,7 +54,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"struct.sol": "test"
+			"enum.sol": "test"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -50,11 +65,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"struct.sol": {
-			"keccak256": "0xb1430f397e36d7c67878697f18ca8ace7a61c0393218979edb5a799c979698f5",
+		"enum.sol": {
+			"keccak256": "0x11c217f808a1c9684448f4fa3e6d5ea205b70a81249036294479d393d85516b6",
 			"urls": [
-				"bzz-raw://ef1d56e5707a63c09d1173cf19968ec60c005cbdf0e1ef12a6675966d9370adf",
-				"dweb:/ipfs/QmTTMAX4HT5J5BED4V5ryPNrNjJGdngY63P3Ms7MDqZ3q2"
+				"bzz-raw://8425f427b4f7926b81c2cf3cbf70eaaed295bc6f61487cfff289bd7b492dc86b",
+				"dweb:/ipfs/QmdoUEigUJ6q76k2WgCpTpAMr34KUK87k2PKbgVbnghBHW"
 			]
 		}
 	},

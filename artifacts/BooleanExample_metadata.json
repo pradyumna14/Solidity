@@ -45,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"boolean.sol": "BooleanExample"
+			"mapping.sol": "BooleanExample"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -59,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"boolean.sol": {
-			"keccak256": "0xa5ef6b986f0f47cf52a43c06732ae53b2fe843bee707110c9a6a77a50eb2cde7",
+		"mapping.sol": {
+			"keccak256": "0x7c802dfcb0e4b91b9ce03c683dcff8726e134ce26fd9653e2daca30f1df03e74",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1fb8abf7e62d529d41f163d72007613e0de5f6033ac33e18ff962df6d0e9bd97",
-				"dweb:/ipfs/QmZbwCVtyq13f6Sjin6dV8gD9ARihGJJoDGLayuEstzQum"
+				"bzz-raw://f96ae7de8d7da7993a4e88ad08ae6b7b52c324fda0a4679fc688e4b5d847c863",
+				"dweb:/ipfs/QmRW78zuNqzjttvKjGaoXKWFrPEKJovCZRofdnekGRAuu8"
 			]
 		}
 	},
