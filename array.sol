@@ -10,5 +10,6 @@ contract Array{
     }
     function length() public view returns(uint){
         return arr.length;
+        //.
     }
 }

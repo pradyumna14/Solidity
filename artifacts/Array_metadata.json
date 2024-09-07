@@ -7,13 +7,19 @@
 		"abi": [
 			{
 				"constant": true,
-				"inputs": [],
-				"name": "b2",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
 				"outputs": [
 					{
-						"internalType": "bytes2",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes2"
+						"type": "uint256"
 					}
 				],
 				"payable": false,
@@ -23,27 +29,12 @@
 			{
 				"constant": true,
 				"inputs": [],
-				"name": "b3",
+				"name": "length",
 				"outputs": [
 					{
-						"internalType": "bytes3",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes3"
-					}
-				],
-				"payable": false,
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"constant": true,
-				"inputs": [],
-				"name": "b4",
-				"outputs": [
-					{
-						"internalType": "bytes4",
-						"name": "",
-						"type": "bytes4"
+						"type": "uint256"
 					}
 				],
 				"payable": false,
@@ -52,7 +43,18 @@
 			},
 			{
 				"constant": false,
-				"inputs": [],
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
 				"name": "setter",
 				"outputs": [],
 				"payable": false,
@@ -69,7 +71,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"bytearray.sol": "Array"
+			"array.sol": "Array"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -80,11 +82,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"bytearray.sol": {
-			"keccak256": "0xfe4e4378a5b6bd0f8e1a8eb78b9c201be61b72d5e387d183dbfb471c76ea2fe8",
+		"array.sol": {
+			"keccak256": "0x8c82977603d43173c9b7090ac48036c6d784d5073b885bdc9d67f216ee401f61",
 			"urls": [
-				"bzz-raw://39fbd684e0f730681920a6cf2a6023b006e18b9314df0ba2736d1c22d0be8a7f",
-				"dweb:/ipfs/QmPve4pVBrMaBLc1waWnDSAxeY8bD5toyc9Kj71YLRgyhn"
+				"bzz-raw://faa47433bae1da73ab48b83f8538700e39a24f76d1357c87ea156a66582fd1f0",
+				"dweb:/ipfs/QmUjKDgHtXXsUU3TyYuPud59cogf9keJaff52G7WhcmJgn"
 			]
 		}
 	},
