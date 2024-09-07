@@ -1,0 +1,85 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "6080604052348015600e575f5ffd5b50603c80601a5f395ff3fe608060405200fea2646970667358221220636a92a0ccd32c2f253ac1e1c01497bb90a72c596f41ba04a159fd1462cdc24c64736f6c634300081b0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xE JUMPI PUSH0 PUSH0 REVERT JUMPDEST POP PUSH1 0x3C DUP1 PUSH1 0x1A PUSH0 CODECOPY PUSH0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH4 0x6A92A0CC 0xD3 0x2C 0x2F 0x25 GASPRICE 0xC1 0xE1 0xC0 EQ SWAP8 0xBB SWAP1 0xA7 0x2C MSIZE PUSH16 0x41BA04A159FD1462CDC24C64736F6C63 NUMBER STOP ADDMOD SHL STOP CALLER ",
+			"sourceMap": "589:112:0:-:0;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@_5": {
+					"entryPoint": null,
+					"id": 5,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				},
+				"@_9": {
+					"entryPoint": null,
+					"id": 9,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "608060405200fea2646970667358221220636a92a0ccd32c2f253ac1e1c01497bb90a72c596f41ba04a159fd1462cdc24c64736f6c634300081b0033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE STOP INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 PUSH4 0x6A92A0CC 0xD3 0x2C 0x2F 0x25 GASPRICE 0xC1 0xE1 0xC0 EQ SWAP8 0xBB SWAP1 0xA7 0x2C MSIZE PUSH16 0x41BA04A159FD1462CDC24C64736F6C63 NUMBER STOP ADDMOD SHL STOP CALLER ",
+			"sourceMap": "589:112:0:-:0;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "12000",
+				"executionCost": "64",
+				"totalCost": "12064"
+			},
+			"external": {
+				"": "18"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"stateMutability": "payable",
+			"type": "fallback"
+		},
+		{
+			"stateMutability": "payable",
+			"type": "receive"
+		}
+	]
+}

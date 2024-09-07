@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fallbackFunction.sol": "Fallback"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fallbackFunction.sol": {
+			"keccak256": "0xa92262f0191a9d0f7561da7ec61c92b8f16681f89d7a89fd089bfb5eea0af5ef",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://02b9fc440aa8a289998d0ab4cb4ac6accdb3d8555a4891143b32bc610ac76b3a",
+				"dweb:/ipfs/QmbZujLFz8JhmvtqNXTCWUAJk8HAeGC5R39YeoKeTr4AsJ"
+			]
+		}
+	},
+	"version": 1
+}
